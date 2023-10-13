@@ -34,7 +34,7 @@ const getAllProducts = async (req, res) => {
   let limit = Number(req.query.limit) || 10;
   let skip = (page - 1)* limit;
 
-  apiData = apiData.skip(skip).limit(limit);
+  //apiData = apiData.skip(skip).limit(limit);
 
   console.log(queryObject);
 
